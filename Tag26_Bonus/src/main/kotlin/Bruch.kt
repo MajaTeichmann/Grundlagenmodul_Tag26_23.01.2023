@@ -1,5 +1,3 @@
-import kotlin.time.toDuration
-
 class Bruch {
     //Die zwei Klassenvariablen nicht verändern
     var zaehler: Int = 1
@@ -11,7 +9,6 @@ class Bruch {
     fun ausgeben(){
         println("${zaehler}/${nenner}")
     }
-
 
     // Die Funktion setze(z: Int, n: Int) soll den Zähler auf z und den Nenner auf n setzen.
     // Sollte der Parameter n gleich 0 sein (Division durch 0), so sollen die Werte unverändert bleiben
@@ -25,7 +22,6 @@ class Bruch {
             nenner = n
         }
     }
-
 
     // Die Funktion einlesen() soll von der Tastatur einen Zähler und einen Nenner einlesen und dabei sicherstellen,
     // dass der Wert des Nenners nicht 0 ist. Die Instanzvariablen sollen auf die eingelesenen Werte mit Hilfe der
